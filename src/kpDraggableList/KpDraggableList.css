@@ -1,0 +1,69 @@
+.draggable-list-container {
+  margin-bottom: 30px;
+  font-family: "Inter";
+}
+.draggable-list-item {
+  border: 1px solid #e0e1e6;
+  cursor: grabbing;
+  user-select: none;
+  margin-bottom: 7px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  height: 44px;
+}
+
+.draggable-list-item span {
+  padding-left: 5px;
+}
+
+.draggable-list-item .dragging {
+  cursor: grabbing;
+  touch-action: none;
+  -ms-touch-action: none;
+  padding: 10px;
+  border: 1px solid #e0e1e6;
+  border-radius: 6px;
+}
+.draggable-list-item.disabled {
+  color: #9ba0af !important;
+}
+.draggable-list-item .draggable-list-item-button-view:hover {
+  cursor: pointer;
+  background-color: #eeeeee;
+  border-radius: 50%;
+  padding: 4px;
+}
+.draggable-list-item .draggable-list-item-button-view {
+  height: 20px;
+  width: 20px;
+}
+.draggable-list-item.disabled .draggable-list-item-button-view {
+  color: #9ba0af !important;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+.draggable-list-item.disabled .draggable-list-item-button-view:hover {
+  cursor: pointer;
+  background-color: #eeeeee;
+  padding: 4px;
+}
+.draggable-list-item-button-drag {
+  height: 20px !important;
+  width: 20px !important;
+}
+.draggable-list-item .draggable-list-item-button-drag {
+  color: #666c7f;
+}
+.draggable-list-item.disabled .draggable-list-item-button-drag {
+  color: inherit;
+}
+.draggable-list-item-text span{
+  color: #1e2332;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 21px !important;
+}
+.draggable-list-item.disabled .draggable-list-item-text span {
+  color: inherit;
+}
